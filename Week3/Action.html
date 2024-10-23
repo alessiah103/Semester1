@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Action</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+<form action="http://www.no-where.com/formhandler.php" method="post" 
+name="myForm" id="myForm">
+
+<fieldset id="form">
+    <legend id="legend">Customer information</legend>
+    <label>Name:
+        <input id="input" type="text" name="Cname" id="Cname"><br>
+    <label id="labels">Email:
+        <input id="input" type="text" name="Cemail" id="Cemail">
+    </label id="labels"><br><br>
+    <input id="submit" type="submit" value="Submit">
+</fieldset>
+
+<!--or--> <br>
+    <label>First name: <input type="text" name="Fname" id="Fname"></label>
+    <br>
+    <br>
+    <label>Last name: <input type="text" name="Lname" id="Lname"></label>
+    <p>Which animals will you have?</p>
+    <input type="checkbox" name="vehicle1" id="vehicle1" value="Audi">
+    <label for="Audi">Audi</label><br>
+    <input type="checkbox" name="vehicle2" id="vehicle2" value="Mercedes">
+    <label for="Mercedes">Mercedes</label><br>
+    <input type="checkbox" name="vehicle3" id="vehicle3" value="BMW">
+    <label for="BMW">BMW</label><br>
+    <input type="checkbox" name="vehicle4" id="None" value="None">
+    <label for="None">I don't have a car.</label><br>
+    <br>
+    <p>Which animals will you have?</p>
+    <input type="radio" name="music" id="music1" value="Classic">
+    <label for="Classic">Classic</label><br>
+    <input type="radio" name="music" id="music2" value="Rap">
+    <label for="Rap">Rap</label><br>
+    <input type="radio" name="music" id="music3" value="Metal">
+    <label for="Metal">Metal</label><br><br>
+    <label for="comments">Comments:</label><br><br>
+    <textarea placeholder="Write your comment here..." name="comments" id="comments"></textarea><br>
+    <br>
+    <input type="submit" value="Send data">
+    <input type="reset">
+     
+</form>
+
+</input>
+
+</body>
+
+</html>

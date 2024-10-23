@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Exercise, WEB1 Session 6</title>
+    <meta charset="utf-8">
+
+    <meta name= "viewport" content="width=device, initial-scale=1">
+
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <h1>Exercise, WEB1 Session 6</h1>
+    <p>Try out the Bootstrap Grid Layout features. First download and include the necessary files to enable Bootstrap
+        features in this webpage project. When you do it correctly, you can see an effect on the fields below.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md">Field 1</div>
+            <div class="col-md">Field 2</div>
+        </div>
+        <div class="row">
+            <div class="col-md">Field 3</div>
+            <div class="col-md">Field 4</div>
+            <div class="col-md">Field 5</div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">Field 6</div>
+            <div class="col-sm-2">Field 7</div>
+            <div class="col-sm-2">Field 8</div>
+        </div>
+    </div>
+    <ol>
+        <li>Create a Grid Layout row with two fields. One field should take up 9 columns when the browser window is
+            bigger than 768 pixels and 5 columns when the window is bigger than 992 pixels. The other field should be
+            sized to accommodate that.</li>
+    <div class="container">
+        <div class="row">
+        <div class="col-md-9 col-lg-5">Field 1</div>
+        <div class="col-md-3 col-lg-7">Field 2</div>
+    </div>        
+        <li>There should be space between fields 6, 7 and 8.</li>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col order-last">Field 1</div>
+                <div class="col-lg-6 col order-first">Field 2</div>
+            </div>
+            <div class="row">
+                <div class="col-md">Field 3</div>
+                <div class="col-md">Field 4</div>
+                <div class="col-md">Field 5</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-2 sm-2">Field 6</div>
+                <div class="col-sm-2 offset-sm-3">Field 7</div>
+                <div class="col-sm-2 offset-sm-3">Field 8</div>
+            </div>
+        </div>
+        <li>On a browser window size greater than 992 pixels, field 1 and 2 should swap positions.</li>
+        <li>Try to recreate the webpage shown on the picture below by using Grid Layout to arrange the elements.</li>
+        <li>Complete the learning path on itslearning (videos, links, and exercises).</li>
+    </ol>
+    <img src="images/big.png" alt="A large webpage">
+</body>
+
+</html>
