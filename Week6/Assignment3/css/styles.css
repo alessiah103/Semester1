@@ -1,0 +1,8 @@
+.carousel-caption h3 {
+    background-color: #2c26295c;
+    color: rgb(112, 89, 107); /* White */
+}
+.carousel-caption p {
+    background-color: #2c26294c;
+    color: #d89ebd; /* Lighter shade */
+}

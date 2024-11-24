@@ -1,0 +1,129 @@
+/*
+Extra functions:
+- Sun
+- Rotating apples
+- Worm
+- Flowers under watering can
+*/
+
+html,
+body {
+    height: 100%;
+    background-color: aquamarine;	
+    cursor: url('../images/cursor.cur'), auto;
+}
+
+
+#butterfly {
+    height: 200px;
+    width: auto;
+    position: absolute;
+    z-index: 9999;
+}
+
+#wateringcan {
+    width: 200px;
+    position: fixed;
+    bottom: 20%;
+    left: 40%;
+    z-index: 7;
+}
+
+
+.waterdrop {
+    width: 20px;
+}
+
+#net {
+    height: 600px;
+    width: auto;
+    position: absolute;
+    z-index: 6;
+}
+
+.apple {
+    height: 50px;
+    width: auto;
+    position: absolute;
+    z-index: 6;
+}
+
+#tree {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+}
+
+.basket {
+    width: 200px;
+    position: fixed;
+    bottom: 20px;
+    left: 20%;
+}
+
+
+body {
+    margin: 0px;
+    background-image: url("../images/grass.png");
+    background-attachment: fixed;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    overflow: hidden;
+}
+
+/* ==== Sándor CSS ==== */
+#sun {
+    position: fixed;
+    z-index: 7;
+    width: 15%;
+}
+
+#sun_sad {
+    position: fixed;
+    z-index: 6;
+    width: 15%;
+}
+
+#cloud {
+    position: absolute;
+    z-index: 8;
+    width: 30%;
+}
+
+#dark-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    z-index: 9998;
+    display: none; /* Initially hidden */
+  }
+/* ==== Sándor end ===== */
+
+/* ==== Attila CSS ==== */
+.flower {
+    height: 15%;
+    width: auto;
+    position: absolute;
+}
+/* ==== Attila end ==== */
+
+/* ==== Alessia CSS ==== */
+#worm {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 4; /*ensure it appear in front of the basket*/
+}
+/* ==== Alessia end ==== */
+
+/*
+Extra functions:
+- Sun
+- Rotating apples
+- Worm
+- Flowers under watering can
+*/

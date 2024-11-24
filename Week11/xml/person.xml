@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <person gender="female">
+    <firstname>Anna</firstname>
+    <lastname>Smith</lastname>
+  </person>
+  <person gender="male">
+    <firstname>John</firstname>
+    <lastname>Doe</lastname>
+  </person>
+
+</root>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <h1>Exercise. XML and AJAX</h1>
+    <h2>Try out the XML and AJAX. Retrieve and display external content on a web page.</h2>
+    <p class="textBox" id="textField1">Text goes here</p>
+    <p class="textBox" id="textField2">More text goes here</p>
+    <p class="textBox" id="textField3">More text goes here</p>
+    <p class="textBox" id="textField4">More text goes here</p>
+    <p class="textBox" id="textField5">More text goes here</p>
+    <p class="textBox" id="textField6">More text goes here</p>
+    <p class="textStyle">NOTE: these exercises will only work if you use the Live Server extension in Visual Studio Code.</p>
+    <ol>
+        <li>In this session, you have to work in this html document and make the required changes in the JavaScript file
+            included with the exercises.</li>
+        <li>Create a new XML file that contains data about your SEP1 group members. You should at least have first name,
+            last name, birthday, nationality, and email address, but you can include more information if you want to.
+        </li>
+        <li>Save the XML file in the xml folder that is included with the exercises.</li>
+        <li>Add an attribute with the eye color of each group member in your XML file (attributes can't have spaces, so
+            the attribute name should be eyeColor).</li>
+        <li>Make a jQuery get function that gets your data from the xml folder. The callback function should find the
+            first name of the first person in your file and dislpay it in the paragraph with the id
+            &quot;textField1&quot;.</li>
+        <li>Modify your callback function so that it also displays the eye color of the first person in your file in the
+            paragraph with the id &quot;textField2&quot;.</li>
+        <li>Create new paragraphs in this HTML file so that you can display the first name and eye color of all your
+            SEP1
+            group members. Modify the callback function so that it will display all the data for all group members.</li>
+        <li>Instead of displaying the data in paragraphs, you should now display the data in a table - you need to
+            create the table as shown in the slides (as part of the txt variable on slide 28).</li>
+        <li>Make a jQuery get function that gets data from the bookstore.xml file in the "xml" folder. The callback
+            function should display the data in a table with the following table headings: Author, Title, Year. You
+            should display the data according to the table headings and remember to give your table borders.</li>
+        <li>Start working on creating a function to display the data from your SEP1 project on your website.</li>
+    </ol>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

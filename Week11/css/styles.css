@@ -1,0 +1,13 @@
+body {
+    background-color: lightcyan;
+}
+.textBox {
+    border: 1px solid black;
+    padding: 1%;
+    width: 10%;
+}
+
+.textStyle {
+    font-weight: bold;
+    text-decoration: underline;
+}

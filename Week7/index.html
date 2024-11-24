@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Deadline for the assignment is 7/11 @23.59 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>VIAPets basic informations and history</title> <!-- This page is coded by Alessia -->
+</head>
+
+<body>
+    <!-- Navigation bar | Sandor -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="images/viapets_logo.jpg"
+                alt="VIAPets"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="page2.html">Sale</a></li>
+                <li class="nav-item"><a class="nav-link" href="page3.html">Kennel</a></li>
+                <li class="nav-item"><a class="nav-link" href="page4.html">Contact</a></li>
+            </ul>
+        </div>
+        <!-- Audio implemented by Attila-->
+        <audio controls>
+            <source class="audioplayer" src="audio/music.mp3" type="audio/mpeg">
+        </audio>
+
+    </nav>
+    <!--Alessia's coding part starts-->
+    <!--Introduction part-->
+    <div class="container-fluid text-center my-5 mb-5">
+        <div class="row">
+            <div class="col-sm-8 col-md-10 col-lg-10 col-xl-10"> <!-- responsive columns for the text content -->
+                <h1 class="title">Welcome to VIAPets</h1> <!-- main title -->
+                <p>
+                    Located in the heart of Northern Europe, VIAPets is more than just a pet shop, it is a place where
+                    every animal is treated as
+                    a Very Important Animal (VIA).
+                    Founded by Bob Oldenuff, a retired football manager, VIAPets began as a traditional pet store,
+                    selling a variety of pets. As pet ownership surged, we expanded our services to include a kennel,
+                    where pets can be cared for
+                    when their owners are away.
+                    At VIAPets, we pride ourselves on offering high-quality care for all pets, whether they’re looking
+                    for a new home or simply
+                    a place to stay while their owners travel. With a unique “recycled pet” approach, we provide a
+                    second chance for animals who
+                    need new families, giving each a new beginning. Our kennel services ensure pets are kept comfortable
+                    and safe, making us a
+                    trusted choice for all pet lovers in the community.
+                    <span class="d-block">Visit VIAPets to meet our incredible animals, learn more about our kennel
+                        services, and see why every pet we care for is
+                        truly special! </span>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--carousel section-->
+    <div class="container-fluid mt-4"> <!--Margin-top for spacing-->
+        <div class="row">
+            <div class="col-md-12">
+
+                <div id="demo" class="carousel slide carousel-dark" data-bs-ride="carousel">
+
+                    <!-- Carousel indicators -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0"
+                            class="active custom-indicator"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"
+                            class="custom-indicator"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"
+                            class="custom-indicator"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"
+                            class="custom-indicator"></button>
+                    </div>
+
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <!--First image-->
+                            <img class="d-block carousel-image" src="images/MainPage/enterance.jpg"
+                                alt="main entrance" />
+                            <div class="carousel-caption">
+                                <h3>ViaPets</h3>
+                                <p>Step into VIAPets, where smiles are as common as wagging tails!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <!--Second image-->
+                            <img class="d-block carousel-image" src="images/MainPage/brown_dog.jpg" alt="brown dog" />
+                        </div>
+                        <div class="carousel-item">
+                            <!--Third image-->
+                            <img class="d-block carousel-image" src="images/MainPage/black_dog.jpg" alt="black dog" />
+                        </div>
+                        <!--Fourth image-->
+                        <div class="carousel-item">
+                            <img class="d-block carousel-image" src="images/MainPage/yellow_dog.jpg" alt="yellow dog" />
+                        </div>
+                    </div>
+
+                    <!-- Previous/next image controls-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--History section-->
+    <div class="container-fluid text-center my-5 mb-5">
+        <div class="row">
+            <div class="col-sm-8 col-md-10 col-lg-10 col-xl-10">
+                <h2 class="history mt-3 mx-auto">History</h2> <!--title-->
+                <p>The journey of VIAPets began with a simple dream to bring joy and companionship to both pets and
+                    their owners. Initially
+                    a small pet shop nestled in the heart of Northern Europe, VIAPets quickly became a beloved part of
+                    the community. As more
+                    people discovered the joy of pet ownership, the demand for reliable and compassionate pet care grew,
+                    inspiring VIAPets to
+                    expand its services. Today, VIAPets is not only a pet shop but also a trusted kennel where animals
+                    find a safe and caring
+                    environment when their owners are away.
+
+                    Guided by the unique concept of “recycled pets,” VIAPets offers second chances to animals in need of
+                    new homes, connecting
+                    them with families ready to offer love and care. Over time, VIAPets has evolved into a
+                    community-focused establishment,
+                    hosting adoption events and providing personalized care programs for every animal. From creating a
+                    warm, welcoming space to
+                    partnering with local shelters, VIAPets is dedicated to the happiness and well-being of both pets
+                    and owners. Now a cherished
+                    institution, VIAPets continues to uphold its mission of treating every animal as a Very Important
+                    Animal, making it the go-to
+                    destination for pet lovers across the region.
+                </p>
+            </div>
+        </div>
+        <!--Alessia's coding part ends-->
+
+
+        <!-- Footer | Sandor -->
+        <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+            <!-- We can add fixed-bottom if we want the footer to stick to the bottom of the window -->
+            <div class="container text-center text-md-start footer-top">
+                <div class="row mt-3 text-center"> <!-- Grid row -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mt-3"> <!-- Grid column -->
+                        <h6 class="text-uppercase fw-bold">VIAPets Pet Shop and Kennel</h6>
+                        <p>We love pets! And we also recycle them! Cool!</p>
+                    </div>
+
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3"> <!-- Grid column -->
+                        <h6 class="text-uppercase fw-bold">Social</h6> <!-- Links -->
+                        <p><a href="#!" class="text-reset">Facebook</a></p>
+                        <p><a href="#!" class="text-reset">Twitter</a></p>
+                        <p><a href="#!" class="text-reset">LinkedIn</a></p>
+                        <p><a href="#!" class="text-reset">Tik Tak</a></p>
+                    </div>
+
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3"> <!-- Grid column -->
+                        <h6 class="text-uppercase fw-bold">Contact</h6>
+                        <p>Horsens, Denmark, 8700</p>
+                        <p>info@viapets.com</p>
+                        <p>+ 45 234 567 88</p>
+                        <p>+ 45 234 567 89</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center p-4 footer-bottom">&copy; 2024 Copyright</div> <!-- Copyright -->
+        </footer>
+
+</body>
+
+</html>

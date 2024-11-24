@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Deadline for the assignment is 7/11 @23.59 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Kennel</title> <!-- This page is coded by Sandor -->
+</head>
+
+<body>
+    <!-- Navigation bar | Sandor -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="images/viapets_logo.jpg"
+                alt="VIAPets"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="page2.html">Sale</a></li>
+                <li class="nav-item"><a class="nav-link active" href="page3.html">Kennel</a></li>
+                <li class="nav-item"><a class="nav-link" href="page4.html">Contact</a></li>
+            </ul>
+        </div>
+        <!-- Audio implemented by Attila-->
+        <audio controls>
+            <source class="audioplayer" src="audio/music.mp3" type="audio/mpeg">
+        </audio>
+    </nav>
+
+    <!-- Main content -->
+    <div class="container kennel-container">
+        <div class="row mt-3 kennel-counter-block"> <!-- Grid row -->
+            <p id="kennel-counter">0 / 10</p>
+            <p>Number of occupied kennels</p>
+        </div>
+
+        <div class="row mt-3 text-center"> <!-- Grid row -->
+            <div class="col-md-8 col-lg-6 col-xl-4 mx-auto mt-3">
+                <img class="kennel_img" src="images/kennel1.jpg" alt="Kennel 1" title="Our kennel for dogs">
+            </div>
+            <div class="col-md-4 col-lg-6 col-xl-8 mx-auto mt-3">
+                <h3>Kennel Services: A Safe and Cozy Stay for Your Pets</h3>
+                <p>At VIAPets, we understand that leaving your pets in someone else's care can be a big decision. That’s
+                    why our kennel services are designed to provide a safe, comfortable, and engaging environment for
+                    pets
+                    of all kinds while you’re away. Our dedicated staff ensures each pet receives personalized care,
+                    attention,
+                    and love—just like they would at home. With spacious kennels, daily exercise routines, and playtime
+                    sessions,
+                    your pets will enjoy their stay, whether it’s for a day or an extended period.</p>
+                <p>We also prioritize health and hygiene, ensuring all pets in our care have clean, comfortable
+                    accommodations.
+                    Plus, our experienced team monitors pets closely to keep them happy and safe.
+                    Trust us to give your pets a cozy home away from home!</p>
+            </div>
+        </div>
+        <div class="row mt-3 text-center"> <!-- Grid row -->
+            <div class="col-md-4 col-lg-6 col-xl-8 mx-auto mt-3">
+                <h3>Adoption & Rehoming: Giving Pets a Second Chance</h3>
+                <p>We believe every pet deserves a loving home. Through our adoption and rehoming service,
+                    we offer a welcoming place for pets that are no longer able to stay with their original
+                    families. After thorough health and behavior assessments, we prepare these pets for their
+                    next chapter by finding them the right match with loving new owners. Our rehoming approach
+                    helps reduce pet abandonment and offers a "recycling" approach to pet care, giving each animal
+                    a second chance at happiness. Whether you’re looking to adopt or need assistance rehoming a pet,
+                    we’re here to help pets find the right family for a fresh start.</p>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-4 mx-auto mt-3">
+                <img class="kennel_img" src="images/kennel3.jpg" alt="Kennel 3" title="Our kennel for cats">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer | Sandor -->
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+        <!-- We can add fixed-bottom if we want the footer to stick to the bottom of the window -->
+        <div class="container text-center text-md-start footer-top">
+            <div class="row mt-3 text-center"> <!-- Grid row -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mt-3"> <!-- Grid column -->
+                    <h6 class="text-uppercase fw-bold">VIAPets Pet Shop and Kennel</h6>
+                    <p>We love pets! And we also recycle them! Cool!</p>
+                </div>
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3"> <!-- Grid column -->
+                    <h6 class="text-uppercase fw-bold">Social</h6> <!-- Links -->
+                    <p><a href="#!" class="text-reset">Facebook</a></p>
+                    <p><a href="#!" class="text-reset">Twitter</a></p>
+                    <p><a href="#!" class="text-reset">LinkedIn</a></p>
+                    <p><a href="#!" class="text-reset">Tik Tak</a></p>
+                </div>
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3"> <!-- Grid column -->
+                    <h6 class="text-uppercase fw-bold">Contact</h6>
+                    <p>Horsens, Denmark, 8700</p>
+                    <p>info@viapets.com</p>
+                    <p>+ 45 234 567 88</p>
+                    <p>+ 45 234 567 89</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-4 footer-bottom">&copy; 2024 Copyright</div> <!-- Copyright -->
+    </footer>
+
+</body>
+
+</html>

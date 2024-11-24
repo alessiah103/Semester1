@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<members> first name, last name, birthday, nationality, and email address
+    <student eyeColor="brown">
+        <firstname>Attilla</firstname>
+        <lastname>Kerekes</lastname>
+        <birthday>10/10/2003</birthday>
+        <nationality>Hungarian</nationality>
+        <emailaddress>395467@via.dk</emailaddress>
+    </student>
+    <student>
+        <firstname eyeColor="blue">Daniel</firstname>
+        <lastname>Ziola</lastname>
+        <birthday>10/10/2003</birthday>
+        <nationality>Polish</nationality>
+        <emailaddress>365324@via.dk</emailaddress>
+    </student>
+    <student>
+        <firstname eyeColor="brown">Sandor</firstname>
+        <lastname>Balog</lastname>
+        <birthday>10/10/1997</birthday>
+        <nationality>Hungarian</nationality>
+        <emailaddress>385456@via.dk</emailaddress>
+    </student>
+</members>

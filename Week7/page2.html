@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <title>Pets for sale</title> <!-- This page is coded by Daniel -->
+</head>
+
+<body>
+    <!-- Navigation bar | Sandor -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="images/viapets_logo.jpg" alt="VIAPets"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+         <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="page2.html">Sale</a></li>
+                <li class="nav-item"><a class="nav-link" href="page3.html">Kennel</a></li>
+                <li class="nav-item"><a class="nav-link" href="page4.html">Contact</a></li>
+            </ul>
+        </div>
+        <!-- Audio implemented by Attila-->
+        <audio controls>
+            <source class="audioplayer" src="audio/music.mp3" type="audio/mpeg">
+        </audio>
+    </nav>
+
+    <div class="text-center mt-5"> <!-- This center my buttons and also make space between navbar and my buttons | Daniel -->
+    <div class="btn-group w-75 mx-auto d-flex justify-content-center w-100 mx-auto"> <!-- This Bootstrap style makes the buttons stick together while allowing each button to have its own separate style, also I class... w-75 mx-auto which horizontally centers the button group inside its parent container, and also d-flex and justify-content-center to keep buttons centered (in shorten way all this classes keep our buttons center and together) | Daniel -->
+      <!-- Make all butons larger class... btn-lg, class ... shadow adds shadow-lg (large) | Daniel -->
+        <p class="btn btn-primary btn-lg shadow-lg ">ALL</p>  <!-- Button will have blue color by class .. btn-primary | Daniel -->
+        <p class="btn btn-dark btn-lg shadow-lg ">DOGS</p> <!-- Button will have dark color by class .. btn-dark| Daniel -->
+        <p class="btn btn-success btn-lg shadow-lg ">CATS</p> <!-- Button will have green color by class .. btn-success | Daniel -->
+        <p class="btn btn-danger btn-lg shadow-lg ">OTHER</p> <!-- Button will have red color by class .. btn-danger | Daniel -->
+    </div>
+    </div>
+
+    <div class="container mt-5"> <!-- Create container with margin by class .. container mt-5 | Daniel -->
+       <!-- Carousel for small screens (mobile: d-md-none) | Daniel-->
+      <div id="petCarousel" class="carousel slide d-md-none" data-bs-ride="carousel"> 
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card h-100"> <!-- h-100 makes 100% of high and card its style liek card, its flexible | Daniel-->
+            <img src="images/DOG/vigo.jpg" class="d-block w-100 card-img-top dog" alt="VIGO" > <!--  card-img-top card make for images, d-block: Makes the image behave like a block-level element, w-100: width 100% |Daniel -->
+            <div class="card-body text-center">
+            <p class="card-text">Vigo, Dog, 7 years, Belgian Shepherd, Male</p>
+        </div>
+    </div>
+        </div> 
+        
+        <!-- same process as before ;) for mobile | Daniel-->
+        <div class="carousel-item">
+          <div class="card h-100">
+              <img src="images/DOG/czarnyresize.jpg" class="d-block w-100 card-img-top dog" alt="Czarny">
+              <div class="card-body text-center">
+                  <p class="card-text">Czarny, Dog, 7 years, Tibetan Mastiff</p>
+              </div>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <div class="card h-100">
+              <img src="images/DOG/CHIVAS.jpg" class="d-block w-100 card-img-top dog" alt="CHIVAS">
+              <div class="card-body text-center">
+                  <p class="card-text">CHIVAS, Dog, 3 years, Golden Retriever, Male</p>
+              </div>
+          </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card h-100">
+            <img src="images/DOG/ELVIS.jpg" class="d-block w-100 card-img-top dog" alt="ELVIS">
+            <div class="card-body text-center">
+                <p class="card-text">ELVIS, Dog, 7 months, French Bulldog, Male puppy</p>
+            </div>
+        </div>
+    </div>
+    <div class="carousel-item">
+      <div class="card h-100">
+          <img src="images/DOG/SPEEDY.jpg" class="d-block w-100 card-img-top dog" alt="Speedy">
+          <div class="card-body text-center">
+              <p class="card-text">Speedy, Dog, 3 months, Shitzu, Male puppy</p>
+          </div>
+      </div>
+  </div>
+  <div class="carousel-item">
+    <div class="card h-100">
+        <img src="images/CAT/KOKO.jpg" class="d-block w-100 card-img-top cat" alt="Koko">
+        <div class="card-body text-center">
+            <p class="card-text">Koko, Cat, 0.5 year, alley cat, Female</p>
+        </div>
+    </div>
+</div>
+<div class="carousel-item">
+  <div class="card h-100">
+      <img src="images/CAT/MIRA.jpg" class="d-block w-100 card-img-top cat" alt="Mira">
+      <div class="card-body text-center">
+          <p class="card-text">Mira, Cat, 11 months, alley Cat, Female</p>
+      </div>
+  </div>
+</div>
+<div class="carousel-item">
+    <div class="card h-100">
+        <img src="images/CAT/LEONIDAS.jpg" class="d-block w-100 card-img-top cat" alt="Leonidas">
+        <div class="card-body text-center">
+            <p class="card-text">Leonidas, Cat, 7 years, alley Cat, Male</p>
+        </div>
+    </div>
+  </div>
+<div class="carousel-item">
+  <div class="card h-100">
+      <img src="images/CAT/Tom.jpg" class="d-block w-100 card-img-top cat" alt="Tom">
+      <div class="card-body text-center">
+          <p class="card-text">Tom, Cat, 9 years, alley Cat, Male</p>
+      </div>
+  </div>
+</div>
+<div class="carousel-item">
+  <div class="card h-100">
+      <img src="images/CAT/Garfield.jpg" class="d-block w-100 card-img-top cat" alt="Garfield">
+      <div class="card-body text-center">
+          <p class="card-text">Garfield, Cat, 4 years, alley Cat, Male</p>
+      </div>
+  </div>
+</div>
+<div class="carousel-item">
+  <div class="card h-100">
+      <img src="images/CAT/Waldek.jpg" class="d-block w-100 card-img-top cat" alt="Waldek">
+      <div class="card-body text-center">
+          <p class="card-text">Waldek, Cat, 5 years, alley Cat, Male</p>
+      </div>
+  </div>
+</div>
+  
+  <div class="carousel-item">
+    <div class="card h-100">
+        <img src="images/OTHER/blueprot[bird].jpg" class="d-block w-100 card-img-top bird" alt="blueprot">
+        <div class="card-body text-center">
+            <p class="card-text">Blueprot, Bird, 1 year, White-throated sparrow, Male</p>
+        </div>
+    </div>
+  </div>
+
+    <div class="carousel-item">
+      <div class="card h-100">
+          <img src="images/OTHER/GALGAN[BIRD].jpg" class="d-block w-100 card-img-top bird" alt="Galgan">
+          <div class="card-body text-center">
+              <p class="card-text">Galgan, Bird, 3 months, Clark's nutcracker, female</p>
+          </div>
+      </div>
+    </div>
+      
+      <div class="carousel-item">
+        <div class="card h-100">
+            <img src="images/OTHER/kogan[bird].jpg" class="d-block w-100 card-img-top bird" alt="Kogan">
+            <div class="card-body text-center">
+                <p class="card-text">Kogan, Bird, 11 months, Calliope hummingbird, male</p>
+            </div>
+        </div>
+      </div>
+     
+        <div class="carousel-item">
+          <div class="card h-100">
+              <img src="images/OTHER/crazy[fish].jpg" class="d-block w-100 card-img-top fish" alt="crazy">
+              <div class="card-body text-center">
+                  <p class="card-text">Crazy, Fish, 1 month, standard fish, male</p>
+              </div>
+          </div>
+        </div>
+          
+          <div class="carousel-item">
+            <div class="card h-100">
+                <img src="images/OTHER/GOLDIE[fish].jpg" class="d-block w-100 card-img-top fish" alt="Goldie">
+                <div class="card-body text-center">
+                    <p class="card-text">Goldie, Fish, 2 weeks, sea fish, male</p>
+                </div>
+            </div>
+          </div>
+         
+            <div class="carousel-item">
+              <div class="card h-100">
+                  <img src="images/OTHER/pretty[fish].jpg" class="d-block w-100 card-img-top fish" alt="Pretty">
+                  <div class="card-body text-center">
+                      <p class="card-text">Pretty, Fish, 1 week, lake fish, male</p>
+                  </div>
+              </div>
+            </div>
+          
+              <div class="carousel-item">
+                <div class="card h-100">
+                    <img src="images/OTHER/zwijka[Rodents].jpg" class="d-block w-100 card-img-top rodent" alt="Zwijka">
+                    <div class="card-body text-center">
+                        <p class="card-text">Zwijka, Rodent, 4 weeks, mouse, male</p>
+                    </div>
+                </div>
+              </div>
+          
+                <div class="carousel-item">
+                  <div class="card h-100">
+                      <img src="images/OTHER/wiewior[Rodents].jpg" class="d-block w-100 card-img-top rodent" alt="Wiewior">
+                      <div class="card-body text-center">
+                          <p class="card-text">Wiewior, Rodent, 8 weeks, squirrel, male</p>
+                      </div>
+                  </div>
+                </div>
+        
+                  <div class="carousel-item">
+                    <div class="card h-100">
+                        <img src="images/OTHER/rudy[Rodents].jpg" class="d-block w-100 card-img-top rodent" alt="Rudy">
+                        <div class="card-body text-center">
+                            <p class="card-text">Rudy, Rodent, 1 year, squirrel, Female</p>
+                        </div>
+                    </div>
+                  </div>
+                   
+                    <div class="carousel-item">
+                      <div class="card h-100">
+                          <img src="images/OTHER/Maturin[turtle].jpg" id="turtle" class="d-block w-100 card-img-top" alt="Rudy">
+                          <div class="card-body text-center">
+                              <p class="card-text">Maturin, Turtle, 100 years, land turtle, Male</p>
+                          </div>
+                      </div>
+                    </div>
+                   
+    </div>
+     <!-- carousel-control-prev: This is for the previous slide | Daniel-->
+    <button class="carousel-control-prev" type="button" data-bs-target="#petCarousel" data-bs-slide="prev"> <!-- data-bs-target="#petCarousel, this one link it by id of carousel |Daniel-->
+      <!-- carousel-control-prev-icon: default left arrow icon for the "Previous" button.
+carousel-control-next-icon: default right arrow icon for the "Next" button.Generally this span elements are responsible for visual part | Daniel-->
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+  </button>
+  <!-- carousel-control-next: This is for the next slide button (to go to the next image) |Daniel -->
+  <button class="carousel-control-next" type="button" data-bs-target="#petCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+ <!-- Grid for larger screens  (like computer, tablets laptop etc) |Daniel-->
+ <div class="row row-cols-1 row-cols-md-4 g-4 d-none d-md-flex">  <!--row-cols-md-4:  medium screens and above (576px and larger), the row will display 4 columns per row, g-4: adds spacing, d-md-flex: row becomes flexible and will be displayed as a flexbox container on larger and medium screens |Daniel-->
+  <div class="col">
+    <div class="card h-100">
+        <img src="images/DOG/vigo.jpg" class="card-img-top dog" alt="VIGO">
+        <div class="card-body text-center">
+            <p class="card-text">Vigo, Dog, 7 years, Belgian Shepherd, Male</p>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100">
+        <img src="images/DOG/czarnyresize.jpg" class="card-img-top dog" alt="Czarny">
+        <div class="card-body text-center">
+            <p class="card-text">Czarny, Dog, 7 years, Tibetan Mastiff</p>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100">
+        <img src="images/DOG/CHIVAS.jpg" class="card-img-top dog" alt="CHIVAS">
+        <div class="card-body text-center">
+            <p class="card-text">CHIVAS, Dog, 3 years, Golden Retriever, Male</p>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100">
+        <img src="images/DOG/ELVIS.jpg" class="card-img-top dog" alt="ELVIS">
+        <div class="card-body text-center">
+            <p class="card-text">ELVIS, Dog, 7 months, French Bulldog, Male puppy</p>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100">
+        <img src="images/DOG/SPEEDY.jpg" class="card-img-top dog" alt="Speedy">
+        <div class="card-body text-center">
+            <p class="card-text">Speedy, Dog, 3 months, Shitzu, Male puppy</p>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100">
+        <img src="images/CAT/KOKO.jpg" class="card-img-top cat" alt="Koko">
+        <div class="card-body text-center">
+            <p class="card-text">Koko, Cat, 0.5 year, alley cat, Female</p>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100">
+        <img src="images/CAT/Tom.jpg" class="card-img-top cat" alt="Tom">
+        <div class="card-body text-center">
+            <p class="card-text">Tom, Cat, 9 years, alley Cat, Male</p>
+        </div>
+    </div>
+</div>
+<div class="col">
+    <div class="card h-100">
+        <img src="images/CAT/LEONIDAS.jpg" class="card-img-top cat" alt="Leonidas">
+        <div class="card-body text-center">
+            <p class="card-text">Leonidas, Cat, 7 years, alley Cat, Male</p>
+        </div>
+    </div>
+</div>
+
+<div class="col">
+    <div class="card h-100">
+        <img src="images/CAT/Garfield.jpg" class="card-img-top cat" alt="Garfield">
+        <div class="card-body text-center">
+            <p class="card-text">Garfield, Cat, 4 years, alley Cat, Male</p>
+        </div>
+    </div>
+</div>
+<div class="col">
+  <div class="card h-100">
+      <img src="images/OTHER/blueprot[bird].jpg" class="card-img-top bird" alt="Blueprot">
+      <div class="card-body text-center">
+          <p class="card-text">Blueprot, Bird, 1 year, White-throated sparrow, Male</p>
+      </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card h-100">
+      <img src="images/OTHER/crazy[fish].jpg" class="card-img-top fish" alt="Crazy">
+      <div class="card-body text-center">
+          <p class="card-text">Crazy, Fish, 1 month, standard fish, Male</p>
+      </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="card h-100">
+      <img src="images/OTHER/Maturin[turtle].jpg" id="Turtle" class="card-img-top" alt="Maturin">
+      <div class="card-body text-center">
+          <p class="card-text">Maturin, Turtle, 100 years, land turtle, Male</p>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+
+    
+    <!-- Footer | Sandor -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted"> <!-- We can add fixed-bottom if we want the footer to stick to the bottom of the window -->
+    <div class="container text-center text-md-start footer-top">
+        <div class="row mt-3 text-center"> <!-- Grid row -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mt-3"> <!-- Grid column -->
+            <h6 class="text-uppercase fw-bold">VIAPets Pet Shop and Kennel</h6>
+            <p>We love pets! And we also recycle them! Cool!</p>
+          </div>
+  
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3"> <!-- Grid column -->
+            <h6 class="text-uppercase fw-bold">Social</h6> <!-- Links -->
+            <p><a href="#!" class="text-reset">Facebook</a></p>
+            <p><a href="#!" class="text-reset">Twitter</a></p>
+            <p><a href="#!" class="text-reset">LinkedIn</a></p>
+            <p><a href="#!" class="text-reset">Tik Tak</a></p>
+          </div>
+  
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3"> <!-- Grid column -->
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <p>Horsens, Denmark, 8700</p>
+            <p>info@viapets.com</p>
+            <p>+ 45 234 567 88</p>
+            <p>+ 45 234 567 89</p>
+          </div>
+        </div>
+      </div>
+    <div class="text-center p-4 footer-bottom">&copy; 2024 Copyright</div> <!-- Copyright -->
+</footer>
+</body>
+</html>

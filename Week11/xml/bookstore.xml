@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book>
+        <author>George R. R. Martin</author>
+        <title>A Game of Thrones</title>
+        <year>1996</year>
+    </book>
+    <book>
+        <author>George R. R. Martin</author>
+        <title>A Clash of Kings</title>
+        <year>1998</year>
+    </book>
+    <book>
+        <author>George R. R. Martin</author>
+        <title>A Storm of Swords</title>
+        <year>2000</year>
+    </book>
+    <book>
+        <author>George R. R. Martin</author>
+        <title>A Feast for Crows</title>
+        <year>2005</year>
+    </book>
+    <book>
+        <author>George R. R. Martin</author>
+        <title>A Dance with Dragons</title>
+        <year>2011</year>
+    </book>
+</bookstore>
